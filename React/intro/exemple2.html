@@ -1,0 +1,52 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add React to a Website</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <!-- React's core library-->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <!-- ReactDOM library renders the content created with React to the DOM. -->
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- Load Babel - used to parse JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      ReactDOM.render(
+      
+        <div>
+          
+          <nav>
+            <img id="nav-img" src="https://bit.ly/3AwQRV1" />
+            <p>Hello React</p>
+          </nav>
+
+          <div>
+            <h2>REACT INTRODUCTION</h2>
+          </div>
+
+          <a href="https://reactjs.org">
+            <button className="btn">BUTTON</button>
+          </a>
+
+          <div id="gallery">
+            <h2>GALLERY</h2>
+            <img src="https://bit.ly/3iMeumb" />
+            <img src="https://bit.ly/3iLPn32" />
+            <img src="https://bit.ly/3BrDAhE" />
+            <img src="https://bit.ly/3lsRQkz" />
+          </div>
+        </div>,
+      
+        document.getElementById('root')
+      )
+    </script>
+  </body>
+</html>
+
