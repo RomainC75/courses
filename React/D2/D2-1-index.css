@@ -1,0 +1,69 @@
+/* index.css */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+   
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  }
+   
+  .App {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+   
+  .list {
+    width: 400px;
+    padding: 10px;
+    box-shadow: 0px 2px 3px grey;
+    margin-bottom: 20px;
+    background: white;
+  }
+   
+  .list > li,
+  .list > p,
+  .list > div {
+    margin: 10px;
+    border: 1px solid #f98a8a;
+  }
+   
+  .MovieCard {
+    border: 1px solid grey;
+    box-shadow: 0px 2px 3px grey;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+   
+  h2 {
+    padding: 15px 30px;
+    border: 1px solid #6d6d6d;
+    background: lightcyan;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+   
+  h3 {
+    padding: 5px 50px;
+    display: inline-block;
+  }
+   
+  button,
+  select {
+    padding: 3px 10px;
+    min-width: 50px;
+    height: 40px;
+    margin: 5px;
+    font-size: 1rem;
+  }
+  
