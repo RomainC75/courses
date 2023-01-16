@@ -6,6 +6,8 @@ function MyComponent() {
     )
   }
 
+
+
 // Correct!
 function MyComponent() {
     return (
