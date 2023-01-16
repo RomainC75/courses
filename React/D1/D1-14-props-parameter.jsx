@@ -1,12 +1,17 @@
 // ./src/components/Greeting.js
 function Greeting(props) {
-    const message = 'Hello Ana!';
+    // const {firstName, lastName} = props
    
     console.log(props);
+    // {
+    //   firstName:'Harper',
+    //   lastName:'Ben'
+    // }
    
     return (
       <div>
-        <u>{message}</u>
+        <u>{props.firstName}</u>
+        <u>{props.lastName}</u>
       </div>
     );
   }
