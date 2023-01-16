@@ -33,22 +33,22 @@ const list1 = [
   },
 ];
 
-// function countDevelopers(list) {
-//   return list.reduce((accu, current) => {
-//     return current.language === "JavaScript" && current.continent === "Europe"
-//       ? accu + 1
-//       : accu;
-//   }, 0);
-// }
 function countDevelopers(list) {
   return list.reduce((accu, current) => {
-    if(current.language === "JavaScript" && current.continent === "Europe"){
-      return accu+1
-    }else{
-      return accu
-    }
+    return current.language === "JavaScript" && current.continent === "Europe"
+      ? accu + 1
+      : accu;
   }, 0);
 }
+// function countDevelopers(list) {
+//   return list.reduce((accu, current) => {
+//     if(current.language === "JavaScript" && current.continent === "Europe"){
+//       return accu+1
+//     }else{
+//       return accu
+//     }
+//   }, 0);
+// }
 
 const res = countDevelopers(list1);
 console.log("resultat", res);
