@@ -22,9 +22,23 @@
 ### Jour 3
 
 [kata5](https://www.codewars.com/kata/coding-meetup-number-6-higher-order-functions-series-can-they-code-in-the-same-language)
-[kata6](https://www.codewars.com/kata/coding-meetup-number-12-higher-order-functions-series-find-github-admins)
+
 
 
 ### Jour4
 
+[kata6](https://www.codewars.com/kata/coding-meetup-number-12-higher-order-functions-series-find-github-admins)
 [kata7](https://www.codewars.com/kata/filter-coffee)
+
+
+
+## High order functions
+map
+filter
+reduce
+find 
+findIndex
+some
+
+slice
+splice
