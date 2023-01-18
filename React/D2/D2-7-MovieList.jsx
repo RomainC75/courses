@@ -1,4 +1,4 @@
-// src/components/MovieList.js
+// src/components/MovieList.jsx
  
 import { useState } from 'react';
 import moviesData from '../movies-data.json';

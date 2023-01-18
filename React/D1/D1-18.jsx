@@ -12,7 +12,7 @@ function App() {
       <Greeting firstName="Andrea" />
       <Badge badgeText="important" />
  
-      <StudentList>
+      <StudentList >
         <StudentCard name="Eva" week={7} info={{ city: 'BCN', course: 'WEB' }} />
         <StudentCard name="Mat" week={8} info={{ city: 'MIA', course: 'DATA' }} />
       </StudentList>
