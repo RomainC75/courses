@@ -1,28 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import DisplayName from './components/DisplayName';
+import StudentCard from './components/StudentCard';
+import ReactPlayer from 'react-player';
 
 function App() {
-  const persons = [
-    {
-      firstName:'Sponge',
-      lastName:'Bob'
-    },
-    {
-      firstName:'Romain',
-      lastName:'Chenard'
-    },
-    {
-      firstName:'Phil',
-      lastName:'Prono'
-    }
-  ]
   return (
     <div className="App">
-      {
-        persons.map((person)=><DisplayName person={person}/>)
-      }
-      {/* <DisplayName person={person}/> */}
+      <ReactPlayer url='https://vimeo.com/785074335'/>
+      
     </div>
   );
 }
