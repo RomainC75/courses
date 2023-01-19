@@ -1,3 +1,3 @@
-const vari1 = 4.5
+const vari1 = 4.9
 
 console.log('vari1', Math.round(vari1))

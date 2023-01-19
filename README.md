@@ -24,7 +24,6 @@
 [kata5](https://www.codewars.com/kata/coding-meetup-number-6-higher-order-functions-series-can-they-code-in-the-same-language)
 
 
-
 ### Jour4
 
 [kata6](https://www.codewars.com/kata/coding-meetup-number-12-higher-order-functions-series-find-github-admins)

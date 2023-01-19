@@ -14,3 +14,7 @@ function App() {
       </div>
     );
   }
+
+// const firstName="Harper"
+// const lastName = "Bob"
+// Greeting(firstName, lastName)
