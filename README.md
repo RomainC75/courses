@@ -28,7 +28,8 @@
 ### Jour4
 
 [kata6](https://www.codewars.com/kata/coding-meetup-number-12-higher-order-functions-series-find-github-admins)
-[kata7](https://www.codewars.com/kata/filter-coffee)
+[kata7](https://www.codewars.com/kata/coding-meetup-number-11-higher-order-functions-series-find-the-average-age)
+[kata7.5](https://www.codewars.com/kata/filter-coffee)
 
 
 
