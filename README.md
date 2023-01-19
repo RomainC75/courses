@@ -32,6 +32,7 @@
 
 
 
+
 ## High order functions
 map
 filter

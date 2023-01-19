@@ -1,0 +1,17 @@
+.square{
+    width: 150px;
+    height: 150px;
+    border:  black solid 1px ;
+}
+
+.bgBlack{
+    background-color: black;
+}
+
+.bgYellow{
+    background-color: yellow;
+}
+
+.bgRed{
+    background-color: red;
+}
