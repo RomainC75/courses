@@ -1,0 +1,10 @@
+.Counter{
+    background-color: rgb(42, 102, 205);
+    width:90%;
+    margin:0 auto 20px auto;
+}
+
+
+.Counter > .underline{
+    text-decoration: underline;
+}
