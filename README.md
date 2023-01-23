@@ -42,10 +42,11 @@
 map
 filter
 reduce
-find 
 findIndex
+find 
 some
 [sort](https://in.pinterest.com/pin/javascript-difference-between-sort-sortfunctionabreturn-ab-and-sortfunctionab-stack-overflow-diffe--127578601932176070/)
+
 
 slice
 splice
