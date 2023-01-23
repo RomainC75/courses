@@ -1,22 +1,24 @@
-import { useState } from "react";
+import {useState} from 'react'
 
 const Carrousel = () => {
-  const [id, setId] = useState(0);
+    const [id, setId] = useState(0)
 
-  const handleId = (newId) => {
-    setId(newId % 6);
-  };
+    const handleId = (newId) =>{
+        if(newId>=0){
+            setId(newId)
+        }
+    }
 
   return (
     <div>
-      <img src={`https://picsum.photos/id/${id+237}/200/300`} alt="" />
-      <div>
-        <button onClick={() => handleId(id - 1)}>-</button>
-        <button onClick={() => handleId(id + 1)}>+</button>
-      </div>
-      <p>{id}</p>
+        <h2>Carrousel from 0</h2>
+        <img src={`https://picsum.photos/id/${id}/200/300`} alt="" />
+        <div>
+            <button onClick={()=>handleId(id-1)}>-</button>
+            <button onClick={()=>handleId(id+1)}>+</button>
+        </div>
     </div>
-  );
-};
+  )
+}
 
-export default Carrousel;
+export default Carrousel
