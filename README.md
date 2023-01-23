@@ -30,7 +30,12 @@
 [kata7](https://www.codewars.com/kata/coding-meetup-number-11-higher-order-functions-series-find-the-average-age)
 [kata7.5](https://www.codewars.com/kata/filter-coffee)
 
+===================================
+===================================
 
+### Jour5
+[kata8](https://www.codewars.com/kata/coding-meetup-number-7-higher-order-functions-series-find-the-most-senior-developer)
+[kata9](https://www.codewars.com/kata/coding-meetup-number-9-higher-order-functions-series-is-the-meetup-age-diverse)
 
 
 ## High order functions
@@ -40,6 +45,7 @@ reduce
 find 
 findIndex
 some
+[sort](https://in.pinterest.com/pin/javascript-difference-between-sort-sortfunctionabreturn-ab-and-sortfunctionab-stack-overflow-diffe--127578601932176070/)
 
 slice
 splice
