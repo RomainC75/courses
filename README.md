@@ -30,8 +30,7 @@
 [kata7](https://www.codewars.com/kata/coding-meetup-number-11-higher-order-functions-series-find-the-average-age)
 [kata7.5](https://www.codewars.com/kata/filter-coffee)
 
-===================================
-===================================
+=====Semaine 2======
 
 ### Jour5
 [kata8](https://www.codewars.com/kata/coding-meetup-number-7-higher-order-functions-series-find-the-most-senior-developer)
