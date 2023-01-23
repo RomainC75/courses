@@ -2,7 +2,7 @@ import React from "react";
 
 const FooterSwitch = ({setTheme}) => {
   const toggleTheme = () => {
-    setTheme( (theme)=>!theme);
+    setTheme( (theme)=> ! theme);
   };
 
   return (
