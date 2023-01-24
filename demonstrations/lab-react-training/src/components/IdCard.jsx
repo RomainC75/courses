@@ -2,7 +2,7 @@ import React from 'react';
 import './style/idCard.css';
 
 const IdCard = (props) => {
-  console.log(props);
+  // console.log(props);
     const { lastName, firstName, gender, height, birth, picture } = props;
   return (
     <div className="IdCard">
