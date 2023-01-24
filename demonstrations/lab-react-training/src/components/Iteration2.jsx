@@ -1,6 +1,7 @@
 import React from 'react'
 import Greetings from './Greetings'
 
+
 const Iteration2 = () => {
   return (
     <div>

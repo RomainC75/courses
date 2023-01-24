@@ -14,7 +14,7 @@ const getGreetings = (lang) => {
 };
 
 const Greetings = ({ lang, children }) => {
-  return <div className="Greetings border">
+  return <div className="Greetings border alignLeft">
     <p>{getGreetings(lang)} {children}</p>
   </div>;
 };
