@@ -15,7 +15,10 @@ const LikeButton = () => {
   return (
     <button
       onClick={() => setLike(like + 1)}
-      style={{ background: styleArr[like % 6].bg, color: styleArr[like %6].color }}
+      style={{
+        background: styleArr[like % 6].bg,
+        color: styleArr[like % 6].color,
+      }}
       className="LikeButton"
     >
       {like} {like === 1 ? 'like' : 'likes'}
