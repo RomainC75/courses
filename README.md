@@ -36,6 +36,10 @@
 [kata8](https://www.codewars.com/kata/coding-meetup-number-7-higher-order-functions-series-find-the-most-senior-developer)
 [kata9](https://www.codewars.com/kata/coding-meetup-number-9-higher-order-functions-series-is-the-meetup-age-diverse)
 
+### Jour6
+[kata10](https://www.codewars.com/kata/coding-meetup-number-10-higher-order-functions-series-create-usernames)
+[kata11](https://www.codewars.com/kata/coding-meetup-number-13-higher-order-functions-series-is-the-meetup-language-diverse)
+
 
 ## High order functions
 map
