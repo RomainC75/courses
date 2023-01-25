@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
-const ClickablePicture = ({ img, imgClicked }) => {
+const ClickablePictureArray = ({ img, imgClicked }) => {
   const [links, setLinks] = useState([img, imgClicked]);
   const toggleLinks = () =>{
-    console.log(links)
-    setLinks(links.reverse())
-    console.log('==>',links)
+    const buff = [...links]
+    buff.reverse()
+    setLinks(buff)
   }
   return (
     <div>
@@ -19,4 +19,4 @@ const ClickablePicture = ({ img, imgClicked }) => {
   );
 };
 
-export default ClickablePicture;
+export default ClickablePictureArray;
