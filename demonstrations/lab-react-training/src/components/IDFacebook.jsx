@@ -1,13 +1,17 @@
 import React from 'react';
-import './style/idCard.css';
+import './style/idFacebook.css';
+
+
 
 const IdCardFacebook = (props) => {
   // console.log(props);
     const { lastName, firstName, country, isStudent, img } = props.data;
+    const { selectedCountry } = props
+
   return (
-    <div className="IdCardFacebook">
+    <div className={`IdCardFacebook border ${selectedCountry===country || selectedCountry==='All' ? 'bgBlue' : ''}`}>
       <div className="picture">
-        <img src={img} style={{width:50}}/>
+        <img src={img} />
       </div>
       <div className="infoText">
         <p><span>First Name</span> : {firstName}</p>

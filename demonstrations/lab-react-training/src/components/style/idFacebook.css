@@ -1,0 +1,17 @@
+.IdCardFacebook{
+    display:flex;
+    text-align: left;
+}
+
+.IdCardFacebook > .picture > img{
+    width:90px;
+    margin-right:10px;
+}
+
+.IdCardFacebook span{
+    font-weight:bold
+}
+
+.bgBlue{
+    background-color: #A3D2E2;
+}
