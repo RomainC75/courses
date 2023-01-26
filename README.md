@@ -45,6 +45,7 @@
 
 ### Jour8
 [kata12](https://www.codewars.com/kata/coding-meetup-number-5-higher-order-functions-series-prepare-the-count-of-languages)
+[kata13](https://www.codewars.com/kata/coding-meetup-number-8-higher-order-functions-series-will-all-continents-be-represented)
 
 
 ## High order functions
