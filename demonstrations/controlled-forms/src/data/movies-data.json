@@ -1,0 +1,65 @@
+[
+    {
+       "_id":"1ae22ff0",
+       "title":"A Beautiful Mind",
+       "director":"Ron Howard",
+       "hasOscars":true,
+       "IMDBRating":8.2
+    },
+    {
+       "_id":"1ae22ff1",
+       "title":"American Gangster",
+       "director":"Ridley Scott",
+       "hasOscars":false,
+       "IMDBRating":7.9
+    },
+    {
+       "_id":"1ae22ff2",
+       "title":"American Hustle",
+       "director":"David O. Russel",
+       "hasOscars":false,
+       "IMDBRating":7.2
+    },
+    {
+       "_id":"1ae22ff3",
+       "title":"Beauty and the Beast",
+       "director":"Gary Trousdale",
+       "hasOscars":true,
+       "IMDBRating":8.1
+    },
+    {
+       "_id":"1ae22ff4",
+       "title":"Brave heart",
+       "director":"Mel Gibson",
+       "hasOscars":true,
+       "IMDBRating":8.3
+    },
+    {
+       "_id":"1ae22ff5",
+       "title":"Captain Phillips",
+       "director":"Paul Greengrass",
+       "hasOscars":false,
+       "IMDBRating":7.8
+    },
+    {
+       "_id":"1ae22ff6",
+       "title":"Dallas Buyers Club",
+       "director":"Jean-Marc Vallée",
+       "hasOscars":true,
+       "IMDBRating":8.1
+    },
+    {
+       "_id":"1ae22ff7",
+       "title":"Django Unchained",
+       "director":"Quentin Tarantino",
+       "hasOscars":true,
+       "IMDBRating":8.4
+    },
+    {
+       "_id":"1ae22ff8",
+       "title":"Die Hard",
+       "director":"John McTiernan",
+       "hasOscars":false,
+       "IMDBRating":8.2
+    }
+  ]
