@@ -46,7 +46,7 @@
 ### Jour8
 [kata12](https://www.codewars.com/kata/coding-meetup-number-5-higher-order-functions-series-prepare-the-count-of-languages)
 [kata13](https://www.codewars.com/kata/coding-meetup-number-8-higher-order-functions-series-will-all-continents-be-represented)
-
+[React - controlled Forms ](https://docs.google.com/presentation/d/1nZeJFyPumNrGZG6AUsfyqF8QZVFl5J1Y9cdUOXrDB8k/edit?usp=sharing)
 
 ## High order functions
 map
