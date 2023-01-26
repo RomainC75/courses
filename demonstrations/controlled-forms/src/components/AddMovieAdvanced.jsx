@@ -12,11 +12,13 @@ function AddMovieAdvanced({ setMovies }) {
   });
 
   const handleNewMovie = (e) =>{
+    if(e.target.name==='director' && e.target.value.match(/\d+/g)){
+      return
+    }
     setNewMovie({
       ...newMovie,
-      [e.target.name]: e.target.name==='hasOscars' ? e.target.checked : e.target.value,
+      [e.target.name]: e.target.name==='hasOscars' ? e.target.checked : e.target.value
     })
-    console.log(newMovie)
   }
 
   const handleSubmit = (e) => {
@@ -38,6 +40,7 @@ function AddMovieAdvanced({ setMovies }) {
           type="text"
           value={newMovie.title}
           name="title"
+          placeholder="enter title"
           onChange={handleNewMovie}
         />
 

@@ -3,7 +3,7 @@
 import React from "react";
  
 function MovieCard(props) {
-  const { movie } = props;
+  const { movie, handleDelete, index } = props;
  
   return (
     <div className="MovieCard">
@@ -11,6 +11,7 @@ function MovieCard(props) {
       <p>Director: {movie.director}</p>
       <p>Rating: {movie.IMDBRating}</p>
       {movie.hasOscars && <p><strong>has Oscars</strong></p>}
+      <button onClick={()=>handleDelete(index)}>Delete</button>
     </div>
   );
 }
