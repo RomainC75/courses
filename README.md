@@ -40,6 +40,12 @@
 [kata10](https://www.codewars.com/kata/coding-meetup-number-10-higher-order-functions-series-create-usernames)
 [kata11](https://www.codewars.com/kata/coding-meetup-number-13-higher-order-functions-series-is-the-meetup-language-diverse)
 
+### Jour7
+
+
+### Jour8
+[kata12](https://www.codewars.com/kata/coding-meetup-number-5-higher-order-functions-series-prepare-the-count-of-languages)
+
 
 ## High order functions
 map

@@ -26,9 +26,11 @@ const Facebook = () => {
   return (
     <div className="Facebook">
       <h2>Facebook</h2>
-      {/* FILTER */}
+      
       <div className="filter">
+      {/* ALL button */}
       <CountrySelector name="All" setSelectedCountry={setSelectedCountry} selectedCountry={selectedCountry}/>
+      {/* other buttons */}
         {getCoutries(profiles).filter((countryName,i)=> displayAllCountryButtons || i<4 ).map((countryName,i) => (
           <CountrySelector key={i+countryName} name={countryName} setSelectedCountry={setSelectedCountry} selectedCountry={selectedCountry}/>
         ))}
