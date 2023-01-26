@@ -42,3 +42,16 @@ function allContinents(list) {
   });
   return continents.length === 0 ? true : false;
 }
+
+
+
+// --- reduce ---
+
+function allContinents(list) {
+    return list.reduce((accu,current)=>{
+      if(!accu.includes(current.continent)){
+        return[...accu,current.continent]
+      }
+      return accu
+    },[]).length===5 ? true : false
+  }
