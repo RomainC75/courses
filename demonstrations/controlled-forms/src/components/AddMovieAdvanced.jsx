@@ -3,73 +3,66 @@
 import { useState } from "react";
 
 function AddMovieAdvanced({ setMovies }) {
-  const [title, setTitle] = useState("");
-  const [director, setDirector] = useState("");
-  const [IMDBRating, setIMDBRating] = useState(5);
-  const [hasOscars, setHasOscars] = useState(true);
 
-  const handleTitle = (e) => {
-    setTitle(e.target.value);
-  };
+  const [newMovie, setNewMovie] = useState({
+    title: "",
+    director: "",
+    IMDBRating: 5,
+    hasOscars: true,
+  });
 
-  const handleDirector = (e) => {
-    setDirector(e.target.value);
-  };
-
-  const handleIMDBRating = (e) => {
-    setIMDBRating(e.target.value);
-  };
-
-  const handleHasOscars = (e) => {
-    console.log(e.target.checked)
-    setHasOscars(e.target.checked);
-  };
+  const handleNewMovie = (e) =>{
+    setNewMovie({
+      ...newMovie,
+      [e.target.name]: e.target.name==='hasOscars' ? e.target.checked : e.target.value,
+    })
+    console.log(newMovie)
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // console.log(title,IMDBRating, director, hasOscars)
     setMovies((movies) => {
       const buff = [...movies];
-      buff.unshift({
-        title,
-        director,
-        IMDBRating,
-        hasOscars,
-      });
+      buff.unshift(newMovie);
       return buff;
     });
   };
 
   return (
-    <div className="AddMovieAdvanced">
+    <div className="AddMovie">
       <h4>Add a Movie</h4>
 
       <form onSubmit={handleSubmit}>
         <label>title</label>
-        <input type="text" value={title} name="title" onChange={handleTitle} />
+        <input
+          type="text"
+          value={newMovie.title}
+          name="title"
+          onChange={handleNewMovie}
+        />
 
         <label>director</label>
         <input
           type="text"
-          value={director}
+          value={newMovie.director}
           name="director"
-          onChange={handleDirector}
+          onChange={handleNewMovie}
         />
 
         <label>IMDBRating</label>
         <input
           type="number"
-          value={IMDBRating}
+          value={newMovie.IMDBRating}
           name="IMDBRating"
-          onChange={handleIMDBRating}
+          onChange={handleNewMovie}
         />
 
         <label>hasOscars</label>
         <input
           type="checkbox"
-          checked={hasOscars}
+          checked={newMovie.hasOscars}
           name="hasOscars"
-          onChange={handleHasOscars}
+          onChange={handleNewMovie}
         />
 
         {/* <input type="submit"/> */}
