@@ -55,6 +55,9 @@
 [kata14](https://www.codewars.com/kata/583952fbc23341c7180002fd)
 [kata15](https://www.codewars.com/kata/54e6533c92449cc251001667/train/javascript)
 
+### Jour10
+[kata16](https://www.codewars.com/kata/583a8bde28019d615a000035)
+
 
 ## High order functions
 map
