@@ -49,6 +49,13 @@
 [React - controlled Forms ](https://docs.google.com/presentation/d/1nZeJFyPumNrGZG6AUsfyqF8QZVFl5J1Y9cdUOXrDB8k/edit?usp=sharing)
 [Lab ! ](https://github.com/ross-u/lab-react-ironnutrition)
 
+=====Semaine 3======
+
+### Jour9
+[kata14](https://www.codewars.com/kata/583952fbc23341c7180002fd)
+[kata15](https://www.codewars.com/kata/54e6533c92449cc251001667/train/javascript)
+
+
 ## High order functions
 map
 filter
