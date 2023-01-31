@@ -57,6 +57,7 @@
 
 ### Jour10
 [kata16](https://www.codewars.com/kata/583a8bde28019d615a000035)
+[React-life cycle](https://docs.google.com/presentation/d/1_GFC5Pf3717klTrPVtxLT2WtqNQ8XeFYH_J2v7ppjdk/edit?usp=sharing)
 
 
 ## High order functions
@@ -71,3 +72,15 @@ some
 
 slice
 splice
+
+## Terminal 
+
+git clone <url>: clone le repo à l'url 
+git pull : met votre 'projet' à jour dans le dossier
+git stash : 
+npm install : installe les dependances fonction du package.json
+
+ls : lister les fichiers et dossiers
+ls -a : lister les ficher et dossiers + cachés
+rm <fichier> : remove fichier
+rm -rf <dossier> : remove (Recursive + Force) dossier
