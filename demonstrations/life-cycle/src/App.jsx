@@ -1,4 +1,5 @@
 import './App.css';
+import Appartments from './components/Appartments';
 import Home from './components/Home';
 import Timer from './components/Timer';
 import TimerFour from './components/TimerFour';
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       {/* <Timer/> */}
       {/* <TimerFour/> */}
-      <Home/>
+      {/* <Home/> */}
+      <Appartments/>
     </div>
   );
 }

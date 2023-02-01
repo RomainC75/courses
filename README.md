@@ -59,6 +59,12 @@
 [kata16](https://www.codewars.com/kata/583a8bde28019d615a000035)
 [React-life cycle](https://docs.google.com/presentation/d/1_GFC5Pf3717klTrPVtxLT2WtqNQ8XeFYH_J2v7ppjdk/edit?usp=sharing)
 
+### Jour11
+[signup](https://todo-konexio.herokuapp.com/users/signup)
+[login](https://todo-konexio.herokuapp.com/users/login)
+[postMan documentation](https://documenter.getpostman.com/view/17233522/2s935iv7C6)
+
+
 
 ## High order functions
 map
