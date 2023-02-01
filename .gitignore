@@ -6,3 +6,5 @@ demonstrations/controlled-forms2/node_modules
 demonstrations/lab-react-ironnutrition/node_modules
 demonstrations/lab-react-ironnutrition-new/node_modules
 demonstrations/life-cycle/node_modules
+demonstrations/todo/node_modules
+demonstrations/todo/.env

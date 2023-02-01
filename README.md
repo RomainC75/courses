@@ -63,7 +63,13 @@
 [signup](https://todo-konexio.herokuapp.com/users/signup)
 [login](https://todo-konexio.herokuapp.com/users/login)
 [postMan documentation](https://documenter.getpostman.com/view/17233522/2s935iv7C6)
-
+==> attention au .env
+- relire le code
+- lire la documentation
+- jouer avec le front end
+- refaire le frontend
+- css ??
+- implémenter la logique pour 'update' et 'delete' (axios.delete...)
 
 
 ## High order functions
