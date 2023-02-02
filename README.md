@@ -71,6 +71,19 @@
 - css ??
 - implémenter la logique pour 'update' et 'delete' (axios.delete...)
 
+### Jour12
+- récupérer le token
+- créer un fichier .env qui contient : token
+- installer axios
+- nettoyer app.jsx
+- créer un component AddTodo qui comprend un formulaire contrôlé et la logique nécessaire pour faire un POST et créer une autre TODO. Regarder la documentation pour l'url.
+- 
+
+
+### BONUS 
+useEffect
+react-router-dom
+authentification avec useEffect et route-dom
 
 ## High order functions
 map
